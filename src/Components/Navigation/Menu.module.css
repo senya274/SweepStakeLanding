@@ -1,0 +1,6 @@
+.menu_container{
+    display: flex;
+    justify-content: center;
+    background: wheat;
+    color: white;
+}

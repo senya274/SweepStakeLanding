@@ -1,0 +1,42 @@
+
+.description_container{
+ 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.description_info{
+    max-width: 1200px;
+   
+}
+
+.info_title{
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 30px;
+}
+.info_text{
+   text-align: center;
+    font-weight: 700;
+ 
+    margin-bottom: 30px;
+}
+.info_text span{
+    color: rgb(20, 185, 20);
+    font-size: 30px;
+}
+.info_images{
+ text-align: center;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.info_image{
+    max-width: 300px;
+    height: auto;
+}
+@media (max-width: 500px){
+  
+}

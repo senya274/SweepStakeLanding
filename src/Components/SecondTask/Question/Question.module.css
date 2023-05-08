@@ -1,0 +1,24 @@
+.question_container{
+display: flex;
+justify-content: center;
+}
+.question_block{
+    
+    max-width: 500px;
+    margin-top: 50px;
+}
+.question_list{
+    
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ 
+    
+}
+.question_title{
+    font-size: 30px;
+    text-align: center;
+}
+.input{
+  
+}

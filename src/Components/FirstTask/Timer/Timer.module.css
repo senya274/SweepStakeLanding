@@ -1,0 +1,15 @@
+
+.timer_container{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   height: 100px;
+    background: rgb(192, 127, 6);
+    margin-top: 30px;
+}
+
+.timer_offer{
+    font-size: 30px;
+    
+}
