@@ -3,7 +3,6 @@ import styles from "./Timer.module.css"
 function Timer() {
   const [seconds, setSeconds] = useState(24 * 60 * 60);
   const [backgroundColor, setBackgroundColor] = useState('#ffffff');
-
   useEffect(() => {
     const interval = setInterval(() => {
       const colors = ['	#FFA500', '#D2691E'];
@@ -13,7 +12,6 @@ function Timer() {
 
     return () => clearInterval(interval);
   }, []);
-
   useEffect(() => {
     const interval = setInterval(() => {
       if (seconds > 0) {
@@ -22,13 +20,9 @@ function Timer() {
     }, 1000);
     return () => clearInterval(interval);
   }, [seconds]);
-
- 
   function formatTime(time) {
     return time < 10 ? `0${time}` : time;
   }
-
- 
   const hours = formatTime(Math.floor(seconds / 3600));
   const minutes = formatTime(Math.floor((seconds % 3600) / 60));
   const formattedSeconds = formatTime(seconds % 60);
