@@ -27,7 +27,7 @@ function Timer() {
   function formatTime(time) {
     return time < 10 ? `0${time}` : time;
   }
-  
+
   const hours = formatTime(Math.floor(seconds / 3600));
   const minutes = formatTime(Math.floor((seconds % 3600) / 60));
   const formattedSeconds = formatTime(seconds % 60);
@@ -36,7 +36,6 @@ function Timer() {
     <div style={{ backgroundColor }} className={styles.timer_container}>
       <h2 className={styles.timer_offer}>Ограниченное предложение, осталось времени: {hours}:{minutes}:{formattedSeconds}</h2>
     </div>
-
   );
 }
 
