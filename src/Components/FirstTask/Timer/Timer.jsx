@@ -28,9 +28,9 @@ function Timer() {
   const formattedSeconds = formatTime(seconds % 60);
 
   return (
-    <div style={{backgroundColor}} className={styles.timer_container}>
+    <div style={{ backgroundColor }} className={styles.timer_container}>
       <h2 className={styles.timer_offer}>Ограниченное предложение, осталось времени: {hours}:{minutes}:{formattedSeconds}</h2>
- </div>
+    </div>
 
   );
 }

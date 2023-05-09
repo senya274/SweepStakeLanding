@@ -1,8 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import styles from './Menu.module.css'
-
-
 export const Menu = () => {
     return(
         <div className={styles.menu_container}>
