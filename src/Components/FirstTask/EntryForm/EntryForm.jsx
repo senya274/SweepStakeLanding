@@ -4,9 +4,11 @@ import styles from "./EntryForm.module.css";
 function EntryForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+
   function handleSubmit(event) {
     event.preventDefault();
   }
+  
   return (
     <div className={styles.form_container}>
       <form className={styles.form} onSubmit={handleSubmit}>

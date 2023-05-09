@@ -4,6 +4,7 @@ import styles from "./GiftBox.module.css"
 export const GiftBox = () =>{
     const [count, setCount] = useState(0);
     const [isClickable, setIsClickable] = useState(true);
+
     const handleClick = () => {
         if (!isClickable) {
           return;
@@ -18,6 +19,7 @@ export const GiftBox = () =>{
           setIsClickable(false); 
         }
       };
+      
   return(
     <div>
         <div className={styles.gift_wrapper}>
