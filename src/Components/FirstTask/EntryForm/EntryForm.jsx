@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./EntryForm.module.css";
+
 function EntryForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

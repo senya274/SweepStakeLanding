@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Description.module.css";
 import { Question } from "../Question/Question";
 import { Gift } from "../GiftBoxes/Gift";
+
 export const Description = () => {
   return (
     <div className={styles.description_container}>
